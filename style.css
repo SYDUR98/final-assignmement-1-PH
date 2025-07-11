@@ -163,30 +163,111 @@
 .focus_container{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: #979696;
-    
+    background-color: #fceded;  
 }
+
 .focus_header{
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
     color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-top: 71px;
 }
+
 .focus_details{
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     text-align: center;
+    
 }
 .focus_button{
     margin-bottom: 20px;
     text-align: center;
+   
+}
+.foucs_img_container{
+    text-align: center;
+    padding-bottom: 71px;  
 }
 .focus_img{
     border-radius: 48px;
-    text-align: center;
 }
 /* focus style end  */
+
+/* contact form style start  */
+.contact_form{
+    max-width: 1140px;
+    margin: 163.63px auto;
+    display: flex;
+    justify-content:space-around;
+    gap: 115px;
+}
+.contact_form label{
+    display: block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 19px;
+    
+    
+}
+.contact_form input[type="text"],input[type="email"],textarea{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.contact_form input[type="submit"]{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    display: block;
+    width: 108%;
+    padding: 19px 190px;
+    margin-top: 19px;
+}
+.contact_header{
+    font-size: 97px;
+    font-weight: bold;
+}
+/* contact form style end  */
+
+/* footer style start  */
+.footer_container{
+   max-width: 531px;
+   margin: 0 auto;
+}
+.footer_manubar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_heading{
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+    text-align: center;
+    margin-bottom: -20px;
+}
+.heading_description{
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+}
+
+.footer_manubar li{
+    list-style: none;
+}
+.footer_manubar li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    
+}
+/* footer style end  */
 
 /* share style start */
 .primary_color{
