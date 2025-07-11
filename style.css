@@ -1,3 +1,15 @@
+/* font railway style start  */
+
+.open-sans-railway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* font railway style end  */
+
 
 .header{
     max-width: 1440px;
