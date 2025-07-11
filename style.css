@@ -14,6 +14,8 @@
 .header{
     max-width: 1440px;
     margin: 0 auto;
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
 }
 /* navbar style start  */
 .navbar{
@@ -28,21 +30,15 @@
 .logo{
     font-size: 34px;
 }
-.signUp{
-    color: #FFFFFF;
-    background-color: #4E47FF;
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-}
+
 /* navbar style end  */
 
 /* banner style star  */
 .banner{
-   
+   margin: 158px auto;
 }
 .banner_container{
+    margin: 0 auto;
     
 }
 .banner_header{
@@ -54,8 +50,20 @@
     color: #252432;
 }
 .banner_button{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 580px;
+    margin-top: 37px;
+
+   
 
 }
+
+
 /* banner style end  */
 
 
@@ -64,5 +72,13 @@
 /* share style start */
 .primary_color{
     color: #4E47FF;
+}
+.button_style{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
 }
 /* share style end */
