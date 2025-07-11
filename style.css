@@ -1,0 +1,56 @@
+
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* navbar style start  */
+.navbar{
+    margin-top: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 34px;
+}
+.signUp{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+/* navbar style end  */
+
+/* banner style star  */
+.banner{
+   
+}
+.banner_container{
+    
+}
+.banner_header{
+    font-size: 65px;
+    font-weight: bold;
+    max-width: 905px;
+    margin: 0 auto;
+    text-align: center;
+    color: #252432;
+}
+.banner_button{
+
+}
+/* banner style end  */
+
+
+
+
+/* share style start */
+.primary_color{
+    color: #4E47FF;
+}
+/* share style end */
