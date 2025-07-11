@@ -281,4 +281,11 @@
     border-radius: 10px;
     font-size: 16px;
 }
+.button:hover{
+    background-color: rgb(247, 247, 136);
+    color:black;
+    transition: .5s linear;
+    transform: scale(1.2)
+    
+}
 /* share style end */
